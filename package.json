@@ -1,0 +1,24 @@
+{
+  "name": "cookies",
+  "version": "0.2.2",
+  "description": "Cookies, optionally signed using Keygrip.",
+  "main": "./lib/cookies",
+  "dependencies": {},
+  "devDependencies": {
+    "express": "*",
+    "keygrip": "*"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "author": "Denis Rylikov <> ()",
+  "homepage": "https://github.com/drylikov/cookies",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/drylikov/cookies.git"
+  },
+  "scripts": {
+    "test": "node ./test/http.js && node ./test/express.js"
+  },
+  "optionalDependencies": {}
+}
